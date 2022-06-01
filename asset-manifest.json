@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/satypAl-Ecommerce/static/css/main.0674945c.css",
+    "main.js": "/satypAl-Ecommerce/static/js/main.ed6fb984.js",
+    "index.html": "/satypAl-Ecommerce/index.html",
+    "main.0674945c.css.map": "/satypAl-Ecommerce/static/css/main.0674945c.css.map",
+    "main.ed6fb984.js.map": "/satypAl-Ecommerce/static/js/main.ed6fb984.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0674945c.css",
+    "static/js/main.ed6fb984.js"
+  ]
+}
