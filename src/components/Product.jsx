@@ -49,7 +49,7 @@ function Product({ product, total, money, basket, setBasket }) {
             disabled={!basketItem}
             onClick={removeBasket}
           >
-            Sat
+           кайтаруу
           </button>
           <span className="amount">
             {(basketItem && basketItem.amount) || 0}
@@ -59,7 +59,7 @@ function Product({ product, total, money, basket, setBasket }) {
             disabled={total + product.price > money}
             onClick={addBasket}
           >
-            Satın al
+            Сатып алуу
           </button>
         </div>
       </div>
