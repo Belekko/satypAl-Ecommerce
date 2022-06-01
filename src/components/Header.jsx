@@ -1,27 +1,27 @@
-import {moneyFormat} from '../helpers';
+import { moneyFormat } from "../helpers";
+import HeaderCartButton from "./Layout/HeaderCartButton";
 
-function Header({total, money}) {
-	return (
+function Header({ total, money }) {
+  const headerTitle =
+    total > 0 && money - total !== 0 ? (
+      <>
+        Коротуу үчүн <span>$ {moneyFormat(money - total)}</span> акчаңыз калды!
+      </>
+    ) : total === 0 ? (
+      <>
+        Коротуу үчүн <span>$ {moneyFormat(money)}</span> акчаңыз бар!
+      </>
+    ) : (
+      money - total === 0 && <>Акчаңыз жок калды!</>
+    );
+  return (
     <>
-      {total > 0 && money - total !== 0 && (
-        <div className="header">
-          Коротуу үчүн <span>$ {moneyFormat(money - total)}</span> акчаңыз
-          калды!
-        </div>
-      )}
-      {total === 0 && (
-        <div className="header">
-          Коротуу үчүн <span>$ {moneyFormat(money)}</span> акчаңыз бар!
-        </div>
-      )}
-      {money - total === 0 && (
-        <div className="header empty">
-         Акчаңыз жок калды!
-        </div>
-      )}
-      <button></button>
+      <div className="header">
+        {headerTitle}
+        <HeaderCartButton />
+      </div>
     </>
   );
 }
 
-export default Header
+export default Header;
