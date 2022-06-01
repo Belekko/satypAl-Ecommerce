@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from "react";
-import Basket from "./components/Header/Basket";
-import Header from "./components/Header/Header";
-import Product from "./components/Products/Product";
+import "./App.css";
+import { useState, useEffect } from "react";
+import Header from "./components/Header";
+import Product from "./components/Product";
+import Basket from "./components/Basket";
 import products from "./products.json";
+import ProductList from "./components/ProductList";
 
 function App() {
-  const [money, setMoney] = useState(100);
+  let money = 1000000;
   const [basket, setBasket] = useState([]);
   const [total, setTotal] = useState(0);
 
@@ -23,27 +25,21 @@ function App() {
       }, 0)
     );
   }, [basket]);
+
   return (
-    <div className="App">
-      <Header basket={basket} money={money} total={total} />
-      {products.map((product) => (
-        <Product
-          basket={basket}
-          total={total}
-          money={money}
-          setBasket={setBasket}
-          product={product}
-        />
-      ))}
-      {total > 0 && (
-        <Basket
-          products={products}
-          basket={basket}
-          total={total}
-          resetBasket={resetBasket}
-        />
-      )}
-    </div>
+    <>
+      <Header total={total} money={money} />
+      <ProductList
+        products={products}
+        total={total}
+        money={money}
+        basket={basket}
+        setBasket={setBasket}
+      />
+      {/* {total > 0 && (
+				<Basket resetBasket={resetBasket} products={products} total={total} basket={basket} />
+			)} */}
+    </>
   );
 }
 

@@ -1,10 +1,74 @@
 [
-  { "id": 1, "title": "bir nerse", "price": 0.5 },
+  {
+    "id": 1,
+    "title": "Сагыз",
+    "price": 0.5,
+    "image": "https://productimages.hepsiburada.net/s/22/375/9952480460850.jpg"
+  },
   {
     "id": 2,
-    "title": "Kola",
-    "price": 6
+    "title": "Кола",
+    "price": 6,
+    "image": "https://ayb.akinoncdn.com/products/2019/01/18/1796/b792f041-5479-4d5f-a74e-233d5da474bc_size780x780_quality60_cropCenter.jpg"
   },
-  { "id": 3, "title": "But kiim", "price": 400 },
-  { "id": 4, "title": "Mashine", "price": 400 }
+  {
+    "id": 3,
+    "title": "Бут кийим",
+    "price": 400,
+    "image": "https://www.ayakkabicity.com/Uploads/UrunResimleri/buyuk/sanzelize-k-07-kadin-sneaker-ayakkabi-47cd.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Машина",
+    "price": 40000,
+    "image": "https://cdn-nq.toyzzshop.com/product/600x600/0f06b_Metal_Cek_Birak_Murat_131_Araba.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Кеме",
+    "price": 80000000,
+    "image": "https://i.ibb.co/sCbmRKV/Ekran-Resmi-2021-04-16-13-45-31.png"
+  },
+  {
+    "id": 6,
+    "title": "APPLE WATCH",
+    "price": 400,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/FU6D2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1555353638673"
+  },
+  {
+    "id": 7,
+    "title": "Macbook Pro",
+    "price": 2500,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000"
+  },
+  {
+    "id": 8,
+    "title": "iPad Pro",
+    "price": 1700,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/TeoriV2-106818-1_large.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Сумка",
+    "price": 1500000,
+    "image": "https://www.flowerayakkabi.com/Uploads/UrunResimleri/buyuk/beyaz-deri-sirt-cantasi-2a20.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Алмаз",
+    "price": 157878777,
+    "image": "https://m.media-amazon.com/images/I/71IQE7kJPML._UL1500_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Мона Лиза",
+    "price": 2000000000,
+    "image": "https://render.fineartamerica.com/images/rendered/square-product/small/images/artworkimages/mediumlarge/1/monalisa-with-white-background-sushil-deokar.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Батон",
+    "price": 0.1,
+    "image": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05120000/05120000-a957e2.jpg"
+  }
 ]
